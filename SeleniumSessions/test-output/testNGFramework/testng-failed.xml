@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testNGFramework]">
+  <test thread-count="5" name="JpetStore_Login_Logout(failed)">
+    <classes>
+      <class name="testNGFramework.JpetStore">
+        <methods>
+          <include name="g_login"/>
+          <include name="h_logout"/>
+        </methods>
+      </class> <!-- testNGFramework.JpetStore -->
+    </classes>
+  </test> <!-- JpetStore_Login_Logout(failed) -->
+</suite> <!-- Failed suite [testNGFramework] -->
