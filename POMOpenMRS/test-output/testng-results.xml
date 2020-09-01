@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59212" started-at="2020-09-01T14:52:00Z" finished-at="2020-09-01T14:53:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59212" started-at="2020-09-01T14:52:00Z" finished-at="2020-09-01T14:53:00Z">
+      <class name="openMrsScripts.OpenMrsFlow">
+        <test-method status="PASS" signature="a_pageload()[pri:0, instance:openMrsScripts.OpenMrsFlow@19a81e8]" name="a_pageload" duration-ms="13089" started-at="2020-09-01T14:52:00Z" finished-at="2020-09-01T14:52:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_pageload -->
+        <test-method status="PASS" signature="b_OpenMrsRepository()[pri:0, instance:openMrsScripts.OpenMrsFlow@19a81e8]" name="b_OpenMrsRepository" duration-ms="46054" started-at="2020-09-01T14:52:13Z" finished-at="2020-09-01T14:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_OpenMrsRepository -->
+      </class> <!-- openMrsScripts.OpenMrsFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
