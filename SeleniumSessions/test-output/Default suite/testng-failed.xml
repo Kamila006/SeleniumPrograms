@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGPracticing.AutomationTestingRegister">
+      <class name="testNGPracticing.Way2automation">
         <methods>
-          <include name="c_register"/>
+          <include name="c_Login"/>
         </methods>
-      </class> <!-- testNGPracticing.AutomationTestingRegister -->
+      </class> <!-- testNGPracticing.Way2automation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
