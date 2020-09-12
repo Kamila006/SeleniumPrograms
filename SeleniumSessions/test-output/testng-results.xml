@@ -1,37 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58811" started-at="2020-09-11T02:44:04Z" finished-at="2020-09-11T02:45:02Z">
+  <suite name="Default suite" duration-ms="96000" started-at="2020-09-12T05:09:36Z" finished-at="2020-09-12T05:11:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="58811" started-at="2020-09-11T02:44:04Z" finished-at="2020-09-11T02:45:02Z">
-      <class name="testNGPracticing.Way2automation">
-        <test-method status="PASS" signature="a_pageload()[pri:0, instance:testNGPracticing.Way2automation@ee68d8]" name="a_pageload" duration-ms="13301" started-at="2020-09-11T02:44:04Z" finished-at="2020-09-11T02:44:17Z">
+    <test name="Default test" duration-ms="96000" started-at="2020-09-12T05:09:36Z" finished-at="2020-09-12T05:11:12Z">
+      <class name="testNGPracticing.WaytoAutomateAlert">
+        <test-method status="PASS" signature="a_pageload()[pri:0, instance:testNGPracticing.WaytoAutomateAlert@ee68d8]" name="a_pageload" duration-ms="63295" started-at="2020-09-12T05:09:36Z" finished-at="2020-09-12T05:10:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a_pageload -->
-        <test-method status="PASS" signature="b_selectable()[pri:0, instance:testNGPracticing.Way2automation@ee68d8]" name="b_selectable" duration-ms="484" started-at="2020-09-11T02:44:17Z" finished-at="2020-09-11T02:44:17Z">
+        <test-method status="PASS" signature="b_alert()[pri:0, instance:testNGPracticing.WaytoAutomateAlert@ee68d8]" name="b_alert" duration-ms="17274" started-at="2020-09-12T05:10:40Z" finished-at="2020-09-12T05:10:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- b_selectable -->
-        <test-method status="PASS" signature="c_Login()[pri:0, instance:testNGPracticing.Way2automation@ee68d8]" name="c_Login" duration-ms="38484" started-at="2020-09-11T02:44:17Z" finished-at="2020-09-11T02:44:56Z">
+        </test-method> <!-- b_alert -->
+        <test-method status="PASS" signature="c_Login()[pri:0, instance:testNGPracticing.WaytoAutomateAlert@ee68d8]" name="c_Login" duration-ms="15093" started-at="2020-09-12T05:10:57Z" finished-at="2020-09-12T05:11:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- c_Login -->
-        <test-method status="PASS" signature="d_countofboxes()[pri:0, instance:testNGPracticing.Way2automation@ee68d8]" name="d_countofboxes" duration-ms="2929" started-at="2020-09-11T02:44:56Z" finished-at="2020-09-11T02:44:59Z">
+        <test-method status="PASS" signature="d_alertfunction()[pri:0, instance:testNGPracticing.WaytoAutomateAlert@ee68d8]" name="d_alertfunction" duration-ms="4" started-at="2020-09-12T05:11:12Z" finished-at="2020-09-12T05:11:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- d_countofboxes -->
-        <test-method status="PASS" signature="d_countofwidget()[pri:0, instance:testNGPracticing.Way2automation@ee68d8]" name="d_countofwidget" duration-ms="489" started-at="2020-09-11T02:44:59Z" finished-at="2020-09-11T02:44:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- d_countofwidget -->
-        <test-method status="PASS" signature="e_dropdownclick()[pri:0, instance:testNGPracticing.Way2automation@ee68d8]" name="e_dropdownclick" duration-ms="3039" started-at="2020-09-11T02:44:59Z" finished-at="2020-09-11T02:45:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- e_dropdownclick -->
-      </class> <!-- testNGPracticing.Way2automation -->
+        </test-method> <!-- d_alertfunction -->
+      </class> <!-- testNGPracticing.WaytoAutomateAlert -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -7,7 +7,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 public class Way2automation {
@@ -33,7 +32,7 @@ public class Way2automation {
 	public void c_Login() throws InterruptedException
 	{
 		driver.findElement(By.xpath("//a[text()='Signin']")).click();
-		Thread.sleep(30000);
+		Thread.sleep(3000);
 		driver.findElement(By.xpath("(//input[@name='username'])[2]")).sendKeys("Divya04");
 		driver.findElement(By.xpath("(//input[@name='password'])[2]")).sendKeys("Pinky@06");
 		WebElement submitbtn = driver.findElement(By.xpath("(//input[@class='button'])[2]"));
