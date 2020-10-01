@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [testNGPracticing]">
-  <test thread-count="5" name="JpetStore_Registration_Login_Logout(failed)">
+  <test thread-count="5" name="WaytoAutomate_Login_AlertFunction(failed)">
     <classes>
-      <class name="testNGPracticing.JpetStore">
+      <class name="testNGPracticing.WaytoAutomateAlert">
         <methods>
-          <include name="logout"/>
+          <include name="e_alertinputfunc"/>
         </methods>
-      </class> <!-- testNGPracticing.JpetStore -->
+      </class> <!-- testNGPracticing.WaytoAutomateAlert -->
     </classes>
-  </test> <!-- JpetStore_Registration_Login_Logout(failed) -->
+  </test> <!-- WaytoAutomate_Login_AlertFunction(failed) -->
 </suite> <!-- Failed suite [testNGPracticing] -->

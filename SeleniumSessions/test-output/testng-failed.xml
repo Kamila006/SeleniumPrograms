@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testNGPracticing]">
+  <test thread-count="5" name="WaytoAutomate_Login_AlertFunction(failed)">
     <classes>
-      <class name="testNGPracticing.WaytoRegistration">
+      <class name="testNGPracticing.WaytoAutomateAlert">
         <methods>
-          <include name="d_registration"/>
+          <include name="e_alertinputfunc"/>
         </methods>
-      </class> <!-- testNGPracticing.WaytoRegistration -->
+      </class> <!-- testNGPracticing.WaytoAutomateAlert -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- WaytoAutomate_Login_AlertFunction(failed) -->
+</suite> <!-- Failed suite [testNGPracticing] -->

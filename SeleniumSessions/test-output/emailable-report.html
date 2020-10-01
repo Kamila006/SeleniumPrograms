@@ -8,14 +8,35 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">58,071</td><td></td><td></td></tr>
+<tr><th colspan="7">testNGPracticing</th></tr>
+<tr><td><a href="#t0">WaytoAutomate_Login_AlertFunction</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">48,282</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testNGPracticing.WaytoRegistration</td><td><a href="#m0">a_pageload</a></td><td rowspan="1">1600659913159</td><td rowspan="1">20457</td></tr><tr class="passedeven"><td><a href="#m1">b_alert</a></td><td rowspan="1">1600659933620</td><td rowspan="1">910</td></tr><tr class="passedeven"><td><a href="#m2">c_Login</a></td><td rowspan="1">1600659934533</td><td rowspan="1">12074</td></tr><tr class="passedeven"><td><a href="#m3">d_registration</a></td><td rowspan="1">1600659946611</td><td rowspan="1">24537</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">testNGPracticing</th></tr></tbody><tbody id="t0"><tr><th colspan="4">WaytoAutomate_Login_AlertFunction &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testNGPracticing.WaytoAutomateAlert</td><td><a href="#m0">e_alertinputfunc</a></td><td rowspan="1">1601522505716</td><td rowspan="1">5165</td></tr><tr><th colspan="4">WaytoAutomate_Login_AlertFunction &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testNGPracticing.WaytoAutomateAlert</td><td><a href="#m1">a_pageload</a></td><td rowspan="1">1601522462760</td><td rowspan="1">12931</td></tr><tr class="passedeven"><td><a href="#m2">b_alert</a></td><td rowspan="1">1601522475696</td><td rowspan="1">1395</td></tr><tr class="passedeven"><td><a href="#m3">c_Login</a></td><td rowspan="1">1601522477096</td><td rowspan="1">12378</td></tr><tr class="passedeven"><td><a href="#m4">d_alertfunction</a></td><td rowspan="1">1601522489477</td><td rowspan="1">16227</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">testNGPracticing.WaytoRegistration#a_pageload</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testNGPracticing.WaytoRegistration#b_alert</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testNGPracticing.WaytoRegistration#c_Login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testNGPracticing.WaytoRegistration#d_registration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>WaytoAutomate_Login_AlertFunction</h2><h3 id="m0">testNGPracticing.WaytoAutomateAlert#e_alertinputfunc</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Input Alert&quot;}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;KAMILA-PC&apos;, ip: &apos;192.168.0.172&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\KAMILA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60114}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bd8ce98e2c5615bd5473ffc0b44ab98c
+*** Element info: {Using=link text, value=Input Alert}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at testNGPracticing.WaytoAutomateAlert.e_alertinputfunc(WaytoAutomateAlert.java:69)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testNGPracticing.WaytoAutomateAlert#a_pageload</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testNGPracticing.WaytoAutomateAlert#b_alert</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testNGPracticing.WaytoAutomateAlert#c_Login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testNGPracticing.WaytoAutomateAlert#d_alertfunction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

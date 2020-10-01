@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="testNGFramework">
-	<test thread-count="5" name="YourLogo_Registration_Logout_Login">
-		<classes>
-			<class name="testNGFramework.YourLogoForTestNG"></class>
-		</classes>
-	</test> <!-- Test -->
-	<test thread-count="5" name="JpetStore_Login_Logout">
-		<classes>
-			<class name="testNGFramework.JpetStore"></class>
-		</classes>
-	</test> <!-- Test -->
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNGPracticing.WaytoAutomateAlert"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
