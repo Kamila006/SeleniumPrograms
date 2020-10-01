@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31795" started-at="2020-09-30T03:29:41Z" finished-at="2020-09-30T03:30:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31795" started-at="2020-09-30T03:29:41Z" finished-at="2020-09-30T03:30:13Z">
+      <class name="swagsLabsScripts.SwagsLabsFlow">
+        <test-method status="PASS" signature="a_pageload()[pri:0, instance:swagsLabsScripts.SwagsLabsFlow@19a81e8]" name="a_pageload" duration-ms="16646" started-at="2020-09-30T03:29:41Z" finished-at="2020-09-30T03:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_pageload -->
+        <test-method status="PASS" signature="b_SwagsLabsRepository()[pri:0, instance:swagsLabsScripts.SwagsLabsFlow@19a81e8]" name="b_SwagsLabsRepository" duration-ms="15090" started-at="2020-09-30T03:29:58Z" finished-at="2020-09-30T03:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_SwagsLabsRepository -->
+      </class> <!-- swagsLabsScripts.SwagsLabsFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
